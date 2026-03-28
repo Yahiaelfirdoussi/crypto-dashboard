@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Models (large files — commit selectively or use Git LFS)
+# Comment out the lines below if you want to commit your models
+# models/*.keras
+# models/*.pkl
+# models/*.save
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# Keras tuner
+tuning/
+oracle.json
+tuner0.json
+trial_*/
+
+# Data
+data/raw/
+data/processed/
+*.csv
